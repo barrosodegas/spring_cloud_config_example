@@ -6,7 +6,7 @@
 
 ## Environment
 - Have Java 8 installed and setup as your default JVM
-- Server port: 8888 and CLient Port: 8002
+- Cloud Config Server port: 8888 and API Client Port: 8002
 
 ## Running the example
 - Compile: Directory: spring_cloud_config_example/cloud_config_server/ --> Comand: mvn clean package -U -T 2 and Directory: spring_cloud_config_example/cloud_config_client/ --> Comand: mvn clean package -U -T 2
