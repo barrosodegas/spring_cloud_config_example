@@ -5,7 +5,7 @@ spring:
   application:
     name: cloud-config-server
   profiles:
-    active: qa
+    active: qa, prod
   cloud:
     config:
       server:

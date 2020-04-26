@@ -3,15 +3,16 @@ server:
 
 spring:
   application:
-    name: rest-crud-api-qa # The name of the .properties or .yml file in the Git repository
+    name: rest-crud-api # The name of the ".properties" or ".yml" file in the Git repository
   profiles:
     active: qa
   cloud:
     config:
       uri: http://localhost:8888 # The config server
+      profile: qa
 
 management:
   endpoints:
     web:
       exposure:
-        include: '*' # Required to run the endoint that updates properties on the client
+        include: '*' # Required to run the endpoint that updates properties on the client

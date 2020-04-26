@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class MessageController {
 
-    @Value("\${api.limit.login.attempt:Propertie not found!}")
+    @Value("\${api.limit.login.attempt:Property not found!}")
     private lateinit var messagePropertie: String
 
     @GetMapping
